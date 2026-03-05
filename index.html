@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head> 
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>To Do List- Second Project</title>
-</head> <!-- Configurações do Site-->
+    <title>To Do List - Second Project</title>
+</head>
 
 <body>
 
-    <h1> TO DO LIST </h1>
-    <input placeholder="Digite a sua tarefa">
-    <button onclick="adicionarTarefa()"> Adicionar </button>
+    <h1>TO DO LIST</h1>
 
-    <ul>
+    <div class="container">
+        <input type="text" placeholder="Digite a sua tarefa">
+        <button onclick="adicionarTarefa()">Adicionar</button>
+    </div>
 
-
+    <ul class="lista-tarefas">
+        <!-- As tarefas serão inseridas aqui pelo JavaScript -->
     </ul>
 
-</body> <!-- PArte visível do site-->
-<script src="scripts.js"> </script> </script>
+    <script src="scripts.js"></script>
+</body>
+
 </html>
